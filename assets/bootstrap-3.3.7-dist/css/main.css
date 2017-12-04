@@ -1,0 +1,169 @@
+/*
+ * Estilos de tu proyecto
+ */
+ /*colores Lab: 
+ gris:#363636;
+ amarillo:#F7B500;
+ gris claro:#757575;*/
+ 
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: 'Source sans pro';
+}
+/*HEADER*/
+header{
+	width:100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+	background-color: #363636;
+}
+.wrapper{
+	width:90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+}
+.glyphicon-chevron-left{
+	font-size: 40px;
+	top:65px;
+}
+header div div a:hover{
+	color:#F7B500;
+}
+img{
+	margin-left:345px;
+}
+
+header nav{
+	float:right;
+}
+header nav a{
+	display: inline-block;
+	color:black;
+	text-decoration: none;
+	padding:10px 20px;
+	line-height: normal;
+	font-size: 20px ease;
+	font-weight: bold;
+	transition: all 500ms;
+}
+header nav a:hover{
+	background:#F7B500;
+	border-radius:30px; 
+}
+.header2{
+position: fixed;
+height: 100px;
+}
+.header2.logo{
+	line-height: 200px;
+	font-size:30px;
+}
+.header2 nav{
+	line-height: 100px;
+}
+/* Para que se vea en celulares*/
+@media screen and (max-width: 950px) {
+	header .logo,
+	header nav {
+		width:100%;
+		text-align:center; /*Centramos el menu y el logotipo*/
+		line-height:100px;
+	}
+ 
+	.header2 {
+		height:auto;
+	}
+ 
+	.header2 .logo,
+	.header2 nav {
+		line-height:50px;
+	}
+}
+
+
+/*img{
+	display: inline-block;
+	margin: 0 auto;
+	margin-left:396px;
+}
+
+.image-contain{
+	text-align: center;
+	background-color:#fff;
+	padding-top: 21px;	
+} */
+
+a{
+	text-decoration: none;
+	color:black;
+}
+nav ul li a:hover{
+	background-color:#363636; ;
+	border-radius: 15%;
+	transition: all 300ms;
+}
+/*.btn_1 a{
+	text-decoration: none;
+}
+.botones-derecha{
+	float: right;
+  	overflow: hidden;
+  	padding-bottom: 24px;
+}*/
+
+
+/*FIN HEADER*/
+/*	SECCION VACIA*/
+#vacia{
+	width: 100%;
+	height:14px;
+	background-color: #CCD1D1;
+}
+/*SECCION SEDE*/
+ #sede{
+ 	background-color: #F7B500;
+ 	width:100%;
+ 	height: auto;
+ }
+	
+
+/*SECCION1 */
+
+#section-1{
+
+	background-color: ;
+	width: 100%;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 2;
+	padding:5px 23px 3px 3px;
+	font-size: 25px;
+	font-weight: 900;
+	color: black;
+}
+h1{
+	font-size: 30px;
+	font-weight: 500;
+}
+.menu{
+	background-color:#F7B500;
+ 	height: 150px; 
+/*FIN SECCION1*/
+
+/*INICIO SECCION2*/
+.row{
+	width: 100%;
+}
+/*FIN SECCION2 */
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	height: auto;
+	background-color:#363636;
+}
